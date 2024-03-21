@@ -28,8 +28,8 @@
     },
     {
       "request": {
-        "method": "GET",
-        "url": "/contas/saldo"
+        "method": "PUT",
+        "url": "/contas/saldos"
       },
       "response": {
         "status": 204,
