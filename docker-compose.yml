@@ -1,0 +1,8 @@
+version: '3'
+services:
+  wiremock:
+    image: rodolpheche/wiremock:2.30.1
+    ports:
+      - "9090:8080"
+    volumes:
+      - ./wiremock/mappings:/home/wiremock/mappings
