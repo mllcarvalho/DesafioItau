@@ -1,7 +1,9 @@
 
 
 GET Mock Client
+
   http://localhost:9090/clientes/bcdd1048-a501-4608-bc82-66d7b4db3600
+  
   http://localhost:9090/clientes/2ceb26e9-7b5c-417e-bf75-ffaa66e3a76f
 
   + Response 200 (application/json)
@@ -16,8 +18,12 @@ GET Mock Client
             }
   
 
+
+
 GET Mock Contas
+
   http://localhost:9090/contas/d0d32142-74b7-4aca-9c68-838aeacef96b
+  
   http://localhost:9090/contas/41313d7b-bd75-4c75-9dea-1f4be434007f
 
   + Response 200 (application/json)
@@ -30,9 +36,12 @@ GET Mock Contas
                 "ativo": true
                 "limiteDiario": 500.00
             }
+
+
       
 
 PUT Mock Contas - Atualiza Saldo
+
   http://localhost:9090/contas/saldos
 
   + Request (application/json)
@@ -51,7 +60,10 @@ PUT Mock Contas - Atualiza Saldo
   + Response 204 - No content (application/json)
 
 
+
+
 POST Mock Bacen
+
   http://localhost:9090/notificacoes
 
   + Request (application/json)
@@ -69,7 +81,10 @@ POST Mock Bacen
   + Response 204 - No Content (application/json)
       
 
+
+
 POST API Transferência
+
 http://localhost:8080/transferencia
 
   + Request (application/json)
