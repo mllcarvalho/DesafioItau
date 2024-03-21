@@ -1,4 +1,23 @@
+# Desenvolvimento e Deploy
 
+Instruções detalhadas para desenvolvimento local, testes e deploy utilizando Docker e Docker Compose.
+
+## Passo 1: Preparação do Ambiente
+
+Clone o repositório do projeto para sua máquina local usando o Git:
+
+```bash
+git clone https://github.com/mllcarvalho/DesafioItau.git
+cd DesafioItau
+```
+
+## Passo 2: Construção dos Containers com Docker Compose
+
+Na raiz do projeto, onde o arquivo docker-compose.yml está localizado, execute o comando abaixo para construir e iniciar todos o container do Wiremock definido no Docker Compose:
+
+```bash
+docker-compose up --build -d
+```
 
 ## GET Mock Client
 
