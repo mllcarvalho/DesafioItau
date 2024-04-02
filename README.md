@@ -69,7 +69,6 @@ docker-compose up --build -d
 
             {
               "valor": 1000.00,
-              "nomeDestino": "Artur Carneiro",
               "conta": {
                   "idOrigem": "d0d32142-74b7-4aca-9c68-838aeacef96b",
                   "idDestino": "41313d7b-bd75-4c75-9dea-1f4be434007f"
